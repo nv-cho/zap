@@ -1,0 +1,38 @@
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and build output
+.venv/
+node_modules/
+.next/
+out/
+dist/
+*.tsbuildinfo
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+coverage/
+
+# Local data, generated proposals, and hackathon notes
+*.db
+*.db-*
+*.sqlite
+*.sqlite3
+/artifacts/
+/docs/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+*.log
+*.swp
+*.swo
+.idea/
